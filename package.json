@@ -4,6 +4,7 @@
   "description": "- Databases\r - Relational Databases\r - Knex migrations.\r - Seeding data.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/jacobAngulo/webdb-iii-challenge#readme",
   "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0",
     "knex": "^0.16.3",
     "sqlite3": "^4.0.6"
   }
